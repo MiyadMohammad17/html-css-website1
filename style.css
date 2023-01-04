@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  background-image: url(back.jpg);
+  background-image: url(1.jpg);
+  background-position: center;
+  
+}
+nav img{
+    width: 109px;
+    height: 80px;
+    outline: 2px solid greenyellow;
 }
 nav {
   width: 100%;
@@ -20,5 +27,18 @@ nav ul {
 }
 nav ul li {
   list-style: none;
-  padding: 0 10px;
+  padding: 0px 12px;
+}
+nav ul li a{
+    outline: 1px;
+    border-bottom: 5px solid;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: yellow;
+    transition: 0.5s;
+    cursor: pointer;
 }
